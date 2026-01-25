@@ -6,13 +6,13 @@ This repository presents a data science project applying Benford's Law to detect
 
 ---
 
-## RESEARCH CONTEXT
+## 1. RESEARCH CONTEXT
 
 International arms transfers represent a critical component of global security dynamics, yet the accuracy and completeness of reported data remain subjects of ongoing debate. Benford's Law, which describes the expected frequency distribution of leading digits in naturally occurring numerical datasets, provides a powerful tool for identifying potential data manipulation, reporting irregularities, or systematic biases in arms transfer statistics.
 
 ---
 
-## OBJECTIVES
+## 2. OBJECTIVES
 
 - Data Cleaning: Implement a comprehensive preprocessing pipeline to handle missing values, outliers, and structural inconsistencies in arms transfer datasets
 - Benford's Law Application: Apply first-digit and multi-digit Benford analysis to identify statistical deviations from expected distributions
@@ -22,7 +22,7 @@ International arms transfers represent a critical component of global security d
 
 ---
 
-## DATASET
+## 3. DATASET
 
 This analysis utilizes the SIPRI Arms Transfers Database, maintained by the Stockholm International Peace Research Institute, which tracks international transfers of major conventional weapons. The dataset includes:
 
@@ -34,30 +34,30 @@ Note: SIPRI data represents estimates based on open sources and may not reflect 
 
 ---
 
-## METHODOLOGY
+## 4. METHODOLOGY
 
-1. Data Preprocessing
+### 4.1 Data Preprocessing
 
 Handling missing and null values
 Standardization of country names and weapon categories
 Outlier detection and treatment
 Temporal aggregation strategies
 
-2. Benford's Law Testing
+### 4.2 Benford's Law Testing
 
 First-digit frequency analysis
 Second-digit and first-two-digits analysis where applicable
 Chi-square goodness-of-fit tests
 Mean Absolute Deviation (MAD) calculations
 
-3. Anomaly Identification
+### 4.3 Anomaly Identification
 
 Country-level analysis (exporters and importers)
 Temporal trend analysis
 Weapon category-specific testing
 Statistical significance thresholds
 
-4. Limitations and Considerations
+### 4.4 Limitations and Considerations
 
 Benford's Law assumptions and applicability conditions
 Dataset-specific constraints (SIPRI TIV methodology)
@@ -66,7 +66,7 @@ Sample size requirements for statistical validity
 
 ---
 
-## TECHNICAL STACK 
+## 5. TECHNICAL STACK 
 
 - Langages : Python (pandas, NumPy, SciPy)
 - Visualisation : Matplotlib, Seaborn, Plotly
@@ -75,7 +75,7 @@ Sample size requirements for statistical validity
 
 ---
 
-## REPOSITORY STRUCTURE
+## 6. REPOSITORY STRUCTURE
 
 ```
 ├── data/
@@ -108,11 +108,11 @@ Sample size requirements for statistical validity
 
 ---
 
-## KEY FINDINGS
+## 7. KEY FINDINGS
 
 ---
 
-## CONTEXT
+## 8. CONTEXT
 
 This project is developed as part of academic research in data science applications for defense and geopolitical analysis. It demonstrates:
 
@@ -123,11 +123,11 @@ This project is developed as part of academic research in data science applicati
 
 ---
 
-## DATA SECURITY AND ETHICS
+## 9. DATA SECURITY AND ETHICS
 
 ---
 
-## LIMITATIONS 
+## 10. LIMITATIONS 
 
 - **Benford's Law applicability**: Not all datasets naturally follow Benford's Law; SIPRI TIV values may have characteristics that affect conformity
 - **Anomalies isn't equal to Fraud**: Statistical deviations indicate areas for further investigation, not definitive evidence of manipulation
@@ -136,7 +136,7 @@ This project is developed as part of academic research in data science applicati
 
 ---
 
-## FUTURE RESEARCH DIRECTIONS
+## 11. FUTURE RESEARCH DIRECTIONS
 
 - Cross-validation with alternative arms transfer databases (UN Register, national customs data)
 - Machine learning approaches for pattern recognition in transfer networks
