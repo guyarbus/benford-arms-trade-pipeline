@@ -90,7 +90,8 @@ Sample size requirements for statistical validity
 │   ├── 02_exploratory_analysis.ipynb
 │   ├── 03_benford_analysis.ipynb
 │   ├── 04_visualization.ipynb
-│   └── 05_geopolitical_context_analysis.ipynb
+│   ├── 05_validation.ipynb
+│   └── 06_geopolitical_context_analysis.ipynb
 │
 ├── results/
 │   ├── figures/              # Generated visualizations
