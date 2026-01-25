@@ -167,7 +167,7 @@ MIT License - See LICENSE file for details
 ---
 
 ## CONTACT
-For academic inquiries or collaboration opportunities, please open an issue or contact guyarbus@caramail.com .
+For inquiries or collaboration opportunities, please open an issue or contact guyarbus@caramail.com .
 
 ---
 
