@@ -2,7 +2,7 @@
 
 ## OVERVIEW 
 
-This repository presents an academic data science project applying Benford's Law to detect anomalies in international arms transfer data. By combining rigorous data cleaning methodologies with statistical fraud detection techniques, this project explores potential inconsistencies in reported arms trade figures, contributing to transparency and accountability research in defense economics and geopolitics.
+This repository presents a data science project applying Benford's Law to detect anomalies in international arms transfer data. By combining rigorous data cleaning methodologies with statistical fraud detection techniques, this project explores potential inconsistencies in reported arms trade figures, contributing to transparency and accountability research in defense economics and geopolitics.
 
 ---
 
