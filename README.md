@@ -1,14 +1,18 @@
-# BENFORD'S LAW ANALYSIS OF INTERNATIONAL ARMS TRANSFERS
+# BENFORD'S LAW ANALYSIS OF INTERNATIONAL ARMS TRANSFERS
 
 ## OVERVIEW 
 
 This repository presents an academic data science project applying Benford's Law to detect anomalies in international arms transfer data. By combining rigorous data cleaning methodologies with statistical fraud detection techniques, this project explores potential inconsistencies in reported arms trade figures, contributing to transparency and accountability research in defense economics and geopolitics.
 
-## RESEARCH CONTEXT
+---
+
+## RESEARCH CONTEXT
 
 International arms transfers represent a critical component of global security dynamics, yet the accuracy and completeness of reported data remain subjects of ongoing debate. Benford's Law, which describes the expected frequency distribution of leading digits in naturally occurring numerical datasets, provides a powerful tool for identifying potential data manipulation, reporting irregularities, or systematic biases in arms transfer statistics.
 
-## OBJECTIVES
+---
+
+## OBJECTIVES
 
 - Data Cleaning: Implement a comprehensive preprocessing pipeline to handle missing values, outliers, and structural inconsistencies in arms transfer datasets
 - Benford's Law Application: Apply first-digit and multi-digit Benford analysis to identify statistical deviations from expected distributions
@@ -16,7 +20,9 @@ International arms transfers represent a critical component of global security d
 - Visualization: Generate clear, reproducible visualizations comparing observed vs. expected digit distributions
 - Academic Documentation: Provide transparent methodology and limitations analysis suitable for peer review
 
-## DATASET
+---
+
+## DATASET
 
 This analysis utilizes the SIPRI Arms Transfers Database, maintained by the Stockholm International Peace Research Institute, which tracks international transfers of major conventional weapons. The dataset includes:
 
@@ -25,6 +31,8 @@ This analysis utilizes the SIPRI Arms Transfers Database, maintained by the Stoc
 - Temporal coverage spanning multiple decades
 
 Note: SIPRI data represents estimates based on open sources and may not reflect actual financial transactions, which has implications for Benford's Law applicability discussed in the methodology section.
+
+---
 
 ## METHODOLOGY
 
@@ -56,6 +64,8 @@ Dataset-specific constraints (SIPRI TIV methodology)
 Distinction between anomalies and actual fraud/manipulation
 Sample size requirements for statistical validity
 
+---
+
 ## TECHNICAL STACK 
 
 - Langages : Python (pandas, NumPy, SciPy)
@@ -63,9 +73,15 @@ Sample size requirements for statistical validity
 - Machine Learning : scikit-learn 
 - Version control : Git/GitHub 
 
+---
+
 ## REPOSITORY STRUCTURE
 
-## KEY FINDINGS
+---
+
+## KEY FINDINGS
+
+---
 
 ## CONTEXT
 
@@ -76,7 +92,11 @@ This project is developed as part of academic research in data science applicati
 - Reproducible research practices in computational social science
 - Ethical considerations in anomaly detection research
 
-## DATA SECURITY AND ETHICS
+---
+
+## DATA SECURITY AND ETHICS
+
+---
 
 ## LIMITATIONS 
 
@@ -85,27 +105,40 @@ This project is developed as part of academic research in data science applicati
 - **Data constraints**: SIPRI estimates are based on open sources and may differ from actual transfer values
 - **Sample size**: Some country-specific or weapon category analyses may have insufficient data for robust statistical testing
 
-## FUTURE RESEARCH DIRECTIONS
+---
+
+## FUTURE RESEARCH DIRECTIONS
 
 - Cross-validation with alternative arms transfer databases (UN Register, national customs data)
 - Machine learning approaches for pattern recognition in transfer networks
 - Geopolitical event correlation analysis
 - Extension to dual-use technology transfers
 
-## CONTRIBUTING
+---
+
+## CONTRIBUTING
+
 This is a research project. Contributions, suggestions, and methodological critiques are welcome through issues or pull requests. Please ensure any contributions maintain academic rigor and transparent documentation.
 
-## REFERENCES
+---
+
+## REFERENCES
 
 - Benford, F. (1938). "The Law of Anomalous Numbers." Proceedings of the American Philosophical Society.
 - SIPRI Arms Transfers Database: https://www.sipri.org/databases/armstransfers
 - Nigrini, M. J. (2012). Benford's Law: Applications for Forensic Accounting, Auditing, and Fraud Detection.
 
-## LICENSE
+---
+
+## LICENSE
 
 MIT License - See LICENSE file for details
 
-## CONTACT
+---
+
+## CONTACT
 For academic inquiries or collaboration opportunities, please open an issue or contact guyarbus@caramail.com .
+
+---
 
 **Disclaimer**: This research is conducted for academic purposes. Identified anomalies should not be interpreted as definitive evidence of fraud or manipulation without further investigation and verification through appropriate channels.
