@@ -82,19 +82,24 @@ Sample size requirements for statistical validity
 │   ├── raw/                  # Original SIPRI data
 │   ├── processed/            # Cleaned datasets
 │   └── README.md             # Data documentation
+│
 ├── notebooks/
 │   ├── 01_data_cleaning.ipynb
 │   ├── 02_exploratory_analysis.ipynb
 │   ├── 03_benford_analysis.ipynb
-│   └── 04_visualization.ipynb
+│   ├── 04_visualization.ipynb
+│   └── 05_geopolitical_context_analysis.ipynb
+│
 ├── src/
 │   ├── cleaning.py           # Data preprocessing functions
 │   ├── benford.py            # Benford's Law implementation
 │   ├── statistics.py         # Statistical testing functions
 │   └── visualization.py      # Plotting utilities
+│
 ├── results/
 │   ├── figures/              # Generated visualizations
 │   └── reports/              # Analysis summaries
+│
 ├── tests/                    # Unit tests
 ├── requirements.txt
 ├── LICENSE
