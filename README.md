@@ -68,10 +68,10 @@ Sample size requirements for statistical validity
 
 ## 5. TECHNICAL STACK 
 
-- Langages : Python (pandas, NumPy, SciPy)
-- Visualisation : Matplotlib, Seaborn, Plotly
-- Machine Learning : scikit-learn 
-- Version control : Git/GitHub 
+- **Langages** : Python (pandas, NumPy, SciPy)
+- **Visualisation** : Matplotlib, Seaborn, Plotly
+- **Machine Learning** : scikit-learn 
+- **Version control** : Git/GitHub 
 
 ---
 
