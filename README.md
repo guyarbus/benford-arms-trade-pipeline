@@ -116,7 +116,7 @@ Sample size requirements for statistical validity
 
 ## 8. CONTEXT
 
-This project is developed as part of academic research in data science applications for defense and geopolitical analysis. It demonstrates:
+This project is developed as part of research in data science applications for defense and geopolitical analysis. It demonstrates:
 
 - Applied statistical methodology in international relations research
 - Data quality assessment in sensitive policy domains
